@@ -1,6 +1,6 @@
-# elsa_sketch 涂鸦手绘信息可视化 Skill
+# elsa_visual 涂鸦手绘信息可视化 Skill
 
-> 把一段文字内容可视化，画成一张白底的、手绘的、elsa_sketch风格的配图。
+> 把一段文字内容可视化，画成一张白底的、手绘的、elsa_visual风格的配图。
 >
 > 图中文字默认中文手写体，默认微信公众号题图尺寸。
 
@@ -36,13 +36,13 @@
 
 ## 安装方法
 
-1. 解压本压缩包，得到 `elsa_sketch/` 文件夹。
+1. 解压本压缩包，得到 `elsa_visual/` 文件夹。
 2. 将其整体放入你的Codex 或 WorkBuddy 的 skills 目录中，例如：
   ```
-   C:\Users\<你的用户名>\.workbuddy\skills\elsa_sketch\
+   C:\Users\<你的用户名>\.workbuddy\skills\elsa_visual\
   ```
 3. 重启 / 刷新会话，你的 AI Agent 会自动发现并加载该 skill。
-4. 验证：对话中输入 `elsa sketch` 应触发本 skill。
+4. 验证：对话中输入 `elsa visual` 应触发本 skill。
 
 > 在workBuddy中生图，独立计费，约 5–10 credits / 张。
 
@@ -55,10 +55,10 @@
 | ------ | ----------------------------- |
 | 公众号题图  | `用elsa风格画一张图：知识管理`            |
 | 小红书封面  | `用elsa风格做一张小红书封面：P人 PKM 流程`   |
-| 抽象概念隐喻 | `elsa sketch 找金子比找铲子更重要`      |
-| 结构化对比  | `elsa sketch 短期寄存 和 长期沉淀`     |
-| 线性流程   | `/elsa_sketch 捕获→整理→提取`       |
-| 照搬风格   | `照 Sketch - elsa 那张风格，文字换成中文` |
+| 抽象概念隐喻 | `elsa visual 找金子比找铲子更重要`      |
+| 结构化对比  | `elsa visual 短期寄存 和 长期沉淀`     |
+| 线性流程   | `/elsa_visual 捕获→整理→提取`       |
+| 照搬风格   | `照 Visual - elsa 那张风格，文字换成中文` |
 
 
 
@@ -72,14 +72,14 @@
 3. **写单张提示词**：套用 `references/prompt-template.md` 模板（已强制包含画风约束）。
 4. **生成**：用 `ImageGen` 单张生成；按指令选 900×383 或 1080×1440。
 5. **检查与迭代**：对照 `references/qa-checklist.md`（文字 / 背景 / 风格 / 人物 / 结构 / 尺寸），命中问题就重生成并加重对应约束。
-6. **保存交付**：存到 workspace 内 `assets/<topic-slug>-elsa-sketch/`，保留原始文件不覆盖。
+6. **保存交付**：存到 workspace 内 `assets/<topic-slug>-elsa-visual/`，保留原始文件不覆盖。
 
 
 
 ## 目录结构
 
 ```
-elsa_sketch/
+elsa_visual/
 ├── README.md                      # 本说明文档（不参与生成）
 ├── SKILL.md                       # 入口：定位、触发语、工作流
 ├── assets/
